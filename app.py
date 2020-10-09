@@ -11,7 +11,6 @@ def index():
 
 
 if __name__ == '__main__':
-    host = '127.0.0.1'
-    port = 80
+    host, port = ('52.255.179.241', 5008)
     debug = True
     app.run(host=host, port=port, debug=debug)
